@@ -36,7 +36,9 @@ O desafio consiste em realizar um projeto lógico de um ambiente de ECommerce, e
 ## Modelo Conceitual
 ![Diagrama Ecommerce](ECommerce.png)
 
-## Script SQL
+<details>
+  <summary><h2>Script SQL</h2></summary>
+  
 #### Criação do banco de dados para o cenário de E-commerce e utilizando.
 ```
 create DATABASE ecommerce;
@@ -162,3 +164,9 @@ CREATE TABLE productOrder(
     CONSTRAINT fk_productorder_product FOREIGN KEY (idPOorder) REFERENCES orders(idOrder)
 );
 ```
+```js
+  function logSomething(something) {
+    console.log('Something', something);
+  }
+  ```
+</details>
