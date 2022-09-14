@@ -164,9 +164,4 @@ CREATE TABLE productOrder(
     CONSTRAINT fk_productorder_product FOREIGN KEY (idPOorder) REFERENCES orders(idOrder)
 );
 ```
-```js
-  function logSomething(something) {
-    console.log('Something', something);
-  }
-  ```
 </details>
